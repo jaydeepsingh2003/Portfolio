@@ -22,7 +22,6 @@ export {
   Contact,
   EarthCanvas, 
   BallCanvas, 
-  // ComputersCanvas, 
   StarsCanvas,
   Profile,
   Footer,
