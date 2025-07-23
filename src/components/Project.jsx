@@ -2,12 +2,12 @@ import Tilt from "react-parallax-tilt";
 import { motion, transform } from "framer-motion";
 import React, { useEffect, useState } from "react";
 import { styles } from "../styles";
-import { github } from "../assets";
-import { demo } from "../assets";
+// import { github } from "../assets";
+// import { demo } from "../assets";
 import { SectionWrapper } from "../hoc";
 import {list} from "../constants"
 import { fadeIn, textVariant } from "../utils/motion";
-import { cProject, javaProject, webProject, otherProject } from "../constants";
+import {webProject} from "../constants";
 import ProjectList from "./ProjectList";
 import "./Project.scss";
 
@@ -43,7 +43,7 @@ const ProjectCard = ({
           </div>
 
           <div className='title absolute inset-0 flex justify-end card-img_hover'>
-            <div
+            {/* <div
               onClick={() => window.open(source_link, "_blank")}
               className='black-gradient w-10 h-10 m-2 rounded-full flex justify-center items-center cursor-pointer'
             >
@@ -53,8 +53,8 @@ const ProjectCard = ({
                 alt='source code'
                 className='w-1/2 h-1/2 object-contain'
               />
-            </div>
-            <div
+            </div> */}
+            {/* <div
               onClick={() => window.open(source_code_link, "_blank")}
               className='black-gradient w-10 h-10 m-2 rounded-full flex justify-center items-center cursor-pointer'
             >
@@ -63,7 +63,7 @@ const ProjectCard = ({
                 alt='source code'
                 className='w-1/2 h-1/2 object-contain'
               />
-            </div>
+            </div> */}
 
           </div>          
         </div>
@@ -93,21 +93,13 @@ const Project = () => {
 
   useEffect(() => {
     switch (selected) {
-      case "java":
-        setData(javaProject);
-        break;
-      case "c++":
-        setData(cProject);
-        break;
+      
       case "web":
         setData(webProject);
         break;
-      case "other":
-        setData(otherProject);
-        break;
 
       default:
-        setData(cProject);
+        setData(webProject);
     }
   }, [selected]);
 

@@ -5,9 +5,9 @@ import {init} from 'ityped';
 import React , { useEffect , useRef} from "react";
 import {AiOutlineGithub } from "react-icons/ai";
 import {ImLinkedin} from "react-icons/im";
-import {AiOutlineInstagram} from "react-icons/ai";
-import {BiLinkAlt} from "react-icons/bi";
-import {aarti} from "../assets";
+// import {AiOutlineInstagram} from "react-icons/ai";
+// import {BiLinkAlt} from "react-icons/bi";
+import {jaydeep} from "../assets";
 import "./Hero.scss";
 
 const Hero = () => {
@@ -15,7 +15,7 @@ const Hero = () => {
   const textRef=useRef();
   useEffect(()=>
   {
-    init(textRef.current, { showCursor: true, strings: [' SDE at BNY ', " Table-Tennis Player ", " Mentor ", " Content Writer ",'Software Developer ', " Tech Enthusiast "] })
+    init(textRef.current, { showCursor: true, strings: [ " Football Player ",'Software Developer ', " Tech Enthusiast " ] })
   },[]);
 
   return (
@@ -32,7 +32,7 @@ const Hero = () => {
 
         <div className="head2">
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hii there, I'm <p className='name text-[#915EFF]'>Aarti Rathi</p>
+            Hii there, I'm <p className='name text-[#915EFF]'>Jaydeep Singh Galhotra</p>
           </h1>
           <h3>
             <span ref={textRef} className={`${styles.heroSubText} mt-2 green-text-gradient`}></span>
@@ -40,28 +40,24 @@ const Hero = () => {
         
         <div className="absolute link1">        
         <a
-          href="https://github.com/shinchancode" target="_blank">
+          href="https://github.com/jaydeepsingh2003" target="_blank">
           <AiOutlineGithub />
         </a>
         <a
-          href="https://www.linkedin.com/in/aarti-rathi-a6031814b/" target="_blank">
+          href="https://www.linkedin.com/in/jaydeep-singh-galhotra-02350425b" target="_blank">
           <ImLinkedin />
         </a>
-        <a
-          href="https://www.instagram.com/aarti.rathiii" target="_blank">
+        {/* <a
+          href="" target="_blank">
           <AiOutlineInstagram />
-        </a>
-        <a
-          href="https://linktr.ee/rathi17" target="_blank">
-          <BiLinkAlt />
-        </a>
+        </a> */}
 
       </div>
 
       </div>
       </div>
       <div className="imgcontainer1 absolute violet-gradient">
-        <img src={aarti} alt="" className="object-contain"/>
+        <img src={jaydeep} alt="" className="object-contain"/>
       </div>
       </div>
 

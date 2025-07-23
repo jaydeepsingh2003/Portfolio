@@ -1,12 +1,12 @@
-import logo from "./arr.svg";
-import aarti from "./photo1.jpg";
+import logo from "./jd.jpg";
+import jaydeep from "./jay.jpg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 
-import github from "./github.png";
-import demo from "./demo.png"
+// import github from "./github.png";
+// import demo from "./demo.png"
 
 import css from "./tech/css.png";
 import git from "./tech/git.png";
@@ -20,9 +20,10 @@ import threejs from "./tech/threejs.svg";
 
 import holopin from "./holopin.png";
 import hf from "./hf.svg";
-import bny from "./bny.png";
-import clg from "./clg.png";
-import school from "./school.png";
+import bny from "./bny.jpeg";
+import clg from "./clg.jpg";
+import school from "./school.jpeg";
+import school1 from "./school1.jpeg";
 
 import crypto from "./project/crypto.jpg";
 import oop from "./project/oop.png";
@@ -52,7 +53,7 @@ export {
   creator,
   mobile,
   web,
-  github,
+  // github,
   css,
   git,
   html,
@@ -64,11 +65,12 @@ export {
   threejs,
   hf,holopin,
   bny,
-  demo,
+  // demo,
   clg,
   school,
+  school1,
   crypto,
-  aarti,
+  jaydeep,
   oop,crud,dwld,onetomany,yml,
   trie,ds,cg,
   port_3d, jsp, chitchat, notes, react1,
