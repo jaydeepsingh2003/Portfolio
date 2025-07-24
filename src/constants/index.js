@@ -58,18 +58,6 @@ import {
   
   const technologies = [
     {
-      name:"Bootstrap",
-      icon: "https://cdn-icons-png.flaticon.com/512/5968/5968672.png",
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
       name: "git",
       icon: git,
     },
