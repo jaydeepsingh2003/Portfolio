@@ -57,26 +57,10 @@ import {
   ]
   
   const technologies = [
-    // {
-    //   name: "HTML 5",
-    //   icon: html,
-    // },
-    // {
-    //   name: "CSS 3",
-    //   icon: css,
-    // },
-    // {
-    //   name: "JavaScript",
-    //   icon: javascript,
-    // },
     {
       name:"Bootstrap",
-      icon: "https://img.icons8.com/color/480/000000/bootstrap.png",
+      icon: "https://cdn-icons-png.flaticon.com/512/5968/5968672.png",
     },
-    // {
-    //   name:"C++ tool",
-    //   icon: "https://img.icons8.com/color/480/000000/c-plus-plus-logo.png",
-    // },
     {
       name: "React JS",
       icon: reactjs,
