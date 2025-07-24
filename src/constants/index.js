@@ -84,7 +84,7 @@ import {
     },
     {
       name:"Html",
-      icon:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz4FFqfXWYz3jpz8kWedK5aXq3Ft_wChq0hqZ9V4JFCEHtiCChDSg900syTblIRBjsynI&usqp=CAU",
+      icon:"https://cdn-icons-png.flaticon.com/512/5968/5968267.png",
     },
     {
       name:"CSS",

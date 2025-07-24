@@ -7,14 +7,11 @@ import {
   Preload,
   useTexture,
 } from "@react-three/drei";
-import * as THREE from "three";
+
 import CanvasLoader from "../Loader";
 
-const Ball = ({ imgUrl }) => {
-  const [decal] = useTexture([imgUrl]);
-
-  // Fix upside-down external textures
-  if (decal) decal.flipY = false;
+const Ball = (props) => {
+  const [decal] = useTexture([props.imgUrl]);
 
   return (
     <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
@@ -23,14 +20,14 @@ const Ball = ({ imgUrl }) => {
       <mesh castShadow receiveShadow scale={2.75}>
         <icosahedronGeometry args={[1, 1]} />
         <meshStandardMaterial
-          color="#fff8eb"
+          color='#fff8eb'
           polygonOffset
           polygonOffsetFactor={-5}
           flatShading
         />
         <Decal
           position={[0, 0, 1]}
-          rotation={[0, 0, 0]}   // keeps image upright
+          rotation={[2 * Math.PI, 0, 6.25]}
           scale={1}
           map={decal}
           flatShading
@@ -41,12 +38,9 @@ const Ball = ({ imgUrl }) => {
 };
 
 const BallCanvas = ({ icon }) => {
-  // Ensure cross-origin images work
-  THREE.TextureLoader.crossOrigin = "anonymous";
-
   return (
     <Canvas
-      frameloop="demand"
+      frameloop='demand'
       dpr={[1, 2]}
       gl={{ preserveDrawingBuffer: true }}
     >
@@ -58,6 +52,7 @@ const BallCanvas = ({ icon }) => {
         />
         <Ball imgUrl={icon} />
       </Suspense>
+
       <Preload all />
     </Canvas>
   );
