@@ -8,10 +8,10 @@ import web from "./web.png";
 // import github from "./github.png";
 // import demo from "./demo.png"
 
-import css from "./tech/css.png";
+import css from "./tech/css.jpeg";
 import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
+import html from "./tech/html.webp";
+import javascript from "./tech/javascript.png"; 
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";

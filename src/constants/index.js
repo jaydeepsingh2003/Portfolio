@@ -4,7 +4,7 @@ import {
     clg,school,school1,
     crypto,oop,yml,crud,dwld,onetomany,
     trie,ds,cg,
-    port_3d, jsp, chitchat, notes, react1,
+    port_3d, jsp, notes, react1,
     be,sql, mini, snl,
   } from "../assets";
 
@@ -195,8 +195,6 @@ import {
         // },
       ],
       image:"https://www.thesandreckoner.co.uk/wp-content/uploads/2018/08/GAS.png",
-      // source_link: "https://chit-chat-app.onrender.com/",
-      // source_code_link: "https://github.com/shinchancode/Chit-Chat-Real_time_chat_app",
     },
   ]
   const experiences = [
