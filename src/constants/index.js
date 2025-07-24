@@ -57,18 +57,18 @@ import {
   ]
   
   const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
+    // {
+    //   name: "HTML 5",
+    //   icon: html,
+    // },
+    // {
+    //   name: "CSS 3",
+    //   icon: css,
+    // },
+    // {
+    //   name: "JavaScript",
+    //   icon: javascript,
+    // },
     {
       name:"Bootstrap",
       icon: "https://img.icons8.com/color/480/000000/bootstrap.png",
@@ -98,6 +98,18 @@ import {
       name:"MySql",
       icon: "https://img.icons8.com/color/480/000000/mysql-logo.png",
     },
+    {
+      name:"Html",
+      icon:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz4FFqfXWYz3jpz8kWedK5aXq3Ft_wChq0hqZ9V4JFCEHtiCChDSg900syTblIRBjsynI&usqp=CAU",
+    },
+    {
+      name:"CSS",
+      icon:"https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png",
+  },
+  {
+    name:"javascript",
+    icon:"https://static.vecteezy.com/system/resources/previews/027/127/463/non_2x/javascript-logo-javascript-icon-transparent-free-png.png",
+  },
   ];
 
   const list = [
